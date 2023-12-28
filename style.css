@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(#3f87a6, #ebf8e1, #f69d3c);
+}
+
+h1{
+    background-color: cornsilk;
+    color: cornflowerblue;
+}
+
+#showsketch{
+    float:right;
+}
+
+canvas{
+    border: 7px ridge aquamarine;
+    border-radius: 30px;
+    margin-top: 100px;
+    animation-name : animate ;
+    animation-duration: 5s ;
+    animation-iteration-count: infinite ;
+}
+
+@keyframes animate{
+    from{box-shadow: 30px 30px 70px lightcoral}
+    to{box-shadow: 30px 30px 70px aquamarine};
+}
+
+p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#inputbox{
+    width: 300px;
+    height: 30px;
+}
